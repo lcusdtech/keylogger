@@ -147,6 +147,7 @@ const char *convertKeyCode(int keyCode) {
         case 36:  return "<Return>";
         case 48:  return "<Tab>";
         case 49:  return " ";
+<<<<<<< HEAD
         case 51:  return "<Del>";
         case 53:  return "<Esc>";
         case 55:  return "<Cmd>";
@@ -191,6 +192,53 @@ const char *convertKeyCode(int keyCode) {
         case 124: return "<Right>";
         case 125: return "<Down>";
         case 126: return "<Up>";
+=======
+        case 51:  return "[del]";
+        case 53:  return "[esc]";
+        case 54:  return "[right-cmd]";
+        case 55:  return "[left-cmd]";
+        case 56:  return "[left-shift]";
+        case 57:  return "[caps]";
+        case 58:  return "[left-option]";
+        case 59:  return "[left-ctrl]";
+        case 60:  return "[right-shift]";
+        case 61:  return "[right-option]";
+        case 62:  return "[right-ctrl]";
+        case 63:  return "[fn]";
+        case 64:  return "[f17]";
+        case 72:  return "[volup]";
+        case 73:  return "[voldown]";
+        case 74:  return "[mute]";
+        case 79:  return "[f18]";
+        case 80:  return "[f19]";
+        case 90:  return "[f20]";
+        case 96:  return "[f5]";
+        case 97:  return "[f6]";
+        case 98:  return "[f7]";
+        case 99:  return "[f3]";
+        case 100: return "[f8]";
+        case 101: return "[f9]";
+        case 103: return "[f11]";
+        case 105: return "[f13]";
+        case 106: return "[f16]";
+        case 107: return "[f14]";
+        case 109: return "[f10]";
+        case 111: return "[f12]";
+        case 113: return "[f15]";
+        case 114: return "[help]";
+        case 115: return "[home]";
+        case 116: return "[pgup]";
+        case 117: return "[fwddel]";
+        case 118: return "[f4]";
+        case 119: return "[end]";
+        case 120: return "[f2]";
+        case 121: return "[pgdown]";
+        case 122: return "[f1]";
+        case 123: return "[left]";
+        case 124: return "[right]";
+        case 125: return "[down]";
+        case 126: return "[up]";
+>>>>>>> 0d1600a9dd6d7331c90001afa11c76d5b4c0a0ed
     }
     return "<Unknown>";
 }
