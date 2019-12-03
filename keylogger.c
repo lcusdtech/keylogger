@@ -147,52 +147,6 @@ const char *convertKeyCode(int keyCode) {
         case 36:  return "<Return>";
         case 48:  return "<Tab>";
         case 49:  return " ";
-<<<<<<< HEAD
-        case 51:  return "<Del>";
-        case 53:  return "<Esc>";
-        case 55:  return "<Cmd>";
-        case 56:  return "<Shift>";
-        case 57:  return "<Caps>";
-        case 58:  return "<Option>";
-        case 59:  return "<Ctrl>";
-        case 60:  return "<Shift>";
-        case 61:  return "<Option>";
-        case 62:  return "<Ctrl>";
-        case 63:  return "<Fn>";
-        case 64:  return "<F17>";
-        case 72:  return "<Volup>";
-        case 73:  return "<Voldown>";
-        case 74:  return "<Mute>";
-        case 79:  return "<F18>";
-        case 80:  return "<F19>";
-        case 90:  return "<F20>";
-        case 96:  return "<F5>";
-        case 97:  return "<F6>";
-        case 98:  return "<F7>";
-        case 99:  return "<F3>";
-        case 100: return "<F8>";
-        case 101: return "<F9>";
-        case 103: return "<F11>";
-        case 105: return "<F13>";
-        case 106: return "<F16>";
-        case 107: return "<F14>";
-        case 109: return "<F10>";
-        case 111: return "<F12>";
-        case 113: return "<F15>";
-        case 114: return "<Help>";
-        case 115: return "<Home>";
-        case 116: return "<Pgup>";
-        case 117: return "<Fwddel>";
-        case 118: return "<F4>";
-        case 119: return "<End>";
-        case 120: return "<F2>";
-        case 121: return "<Pgdown>";
-        case 122: return "<F1>";
-        case 123: return "<Left>";
-        case 124: return "<Right>";
-        case 125: return "<Down>";
-        case 126: return "<Up>";
-=======
         case 51:  return "[del]";
         case 53:  return "[esc]";
         case 54:  return "[right-cmd]";
@@ -238,7 +192,6 @@ const char *convertKeyCode(int keyCode) {
         case 124: return "[right]";
         case 125: return "[down]";
         case 126: return "[up]";
->>>>>>> 0d1600a9dd6d7331c90001afa11c76d5b4c0a0ed
     }
     return "<Unknown>";
 }
